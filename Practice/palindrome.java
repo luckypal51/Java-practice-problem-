@@ -17,6 +17,7 @@ public class palindrome {
     public static void main(String[] args) {
         int max =0; int start =0;int end =0;
         String name = "cbbd";
+
         int n = name.length();
         for(int i =0;i<n;i++){
             for(int j =i;j<n;j++){

@@ -9,6 +9,7 @@ public static void main(String[] args) {
         {11,25,35,45},
         {28,29,37,49}
     };
+    System.out.println(arr[0].length);
     int target =29;
     System.out.println(Arrays.toString(search(arr, target)));;
 }

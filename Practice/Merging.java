@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 public class Merging {
     public static void main(String[] args) {
+        
         int [] arr1 ={0,2,4};
         int [] arr2 ={1,3,6,8,9};
         int n= arr1.length-1;
