@@ -3,7 +3,9 @@ import java.util.HashMap;
 
 public class ClimbingStairs {
     public static void main(String[] args) {
-        int n = 5;
+        int n = 14;
+        int count =0;
+        System.out.println(climb(n,count));
         int ans =(climbStairs(n));
         System.out.println(ans);
     }
@@ -20,5 +22,15 @@ public class ClimbingStairs {
         int result = climb(n - 1, memo) + climb(n - 2, memo);  // Recursive step
         memo.put(n, result);  // Store result in memo for future use
         return result;
+    }
+    public static int climb(int n,int count){
+        if(n==0){
+            return count;
+        }
+        if(n%2==0){
+            n /=2;
+            return climb(n,count+1);
+        }
+        return climb(n-1,count+1);
     }
 }

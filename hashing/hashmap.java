@@ -1,5 +1,6 @@
 package hashing;
 
+import javax.swing.*;
 import java.util.*;
 
 public class hashmap {
@@ -12,6 +13,8 @@ public class hashmap {
         if (map.containsKey("India")) {
             System.out.println("Yes ");
         }
+        ArrayList<Integer> arr = new ArrayList<>();
+        arr.removeAll(Collections.singleton(true));
         System.out.println(map.get("Us"));
         for(Map.Entry<String, Integer> e: map.entrySet()){
                  System.out.println(e);
