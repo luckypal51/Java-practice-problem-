@@ -16,11 +16,9 @@ public class Fibonacci {
             System.out.println(1);
             return 1;
         }
-  
 
-        int sum = Fibo(n-1)+Fibo(n-2);
-        
-        return sum;
+
+        return Fibo(n-1)+Fibo(n-2);
         
     }
 }

@@ -8,7 +8,7 @@ public class binarysearch {
     }
 // its return-1 if the target is not found 
 // its going to return the index of the element 
-    static int search(int[]arr,int target){
+    public static int search(int[]arr,int target){
       int start = 0;
       int end = arr.length-1;
       while (start<=end) {

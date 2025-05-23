@@ -7,7 +7,7 @@ public class bubble_sort {
         int []arr = {5,4,3,2,1};
         System.out.println(Arrays.toString(sort(arr)));
     }
-    private static int [] sort(int arr[]){
+    private static int [] sort(int[] arr){
        
         for(int i=0;i<arr.length;i++){
             for(int j = 0;j<arr.length-1;j++){

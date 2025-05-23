@@ -12,12 +12,13 @@ public class hashmap {
         System.out.println(map);
         if (map.containsKey("India")) {
             System.out.println("Yes ");
-        }
-        ArrayList<Integer> arr = new ArrayList<>();
-        arr.removeAll(Collections.singleton(true));
+        } ArrayList<Integer> arr = new ArrayList<>();
+        arr.clear();
+
         System.out.println(map.get("Us"));
         for(Map.Entry<String, Integer> e: map.entrySet()){
-                 System.out.println(e);
+                    e.getValue();
+
         }
       }
 }
