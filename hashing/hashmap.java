@@ -18,6 +18,7 @@ public class hashmap {
         System.out.println(map.get("Us"));
         for(Map.Entry<String, Integer> e: map.entrySet()){
                     e.getValue();
+                    e.getKey();
 
         }
       }
