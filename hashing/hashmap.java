@@ -12,6 +12,7 @@ public class hashmap {
         System.out.println(map);
         if (map.containsKey("India")) {
             System.out.println("Yes ");
+
         } ArrayList<Integer> arr = new ArrayList<>();
         arr.clear();
 
